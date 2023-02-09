@@ -10,53 +10,63 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link
-            rel="stylesheet"
-            href="./src/index.css"
-            type="text/html"
-            media="all"
-        />
+        <script
+            src="https://kit.fontawesome.com/7b1140090f.js"
+            crossorigin="anonymous"
+        ></script>
+
+        <link rel="stylesheet" href="./src/global.style.css" media="all" />
         <title>Alurinha</title>
     </head>
     <body>
-        <header class="header">
-            <div class="container">
-                <h1 class="header__logo">Alurinha</h1>
-                <i class="header__search"></i>
-                <h2 class="header__title">Mergulhe em Tecnologia</h2>
+        <header class="c-header">
+            <div class="u-container">
+                <div class="u-flexrow">
+                    <h1 class="c-header__logo">Alurinha</h1>
+                    <i
+                        class="c-header__search fa-solid fa-magnifying-glass"
+                    ></i>
+                </div>
+                <h2 class="c-header__title">Mergulhe em Tecnologia</h2>
             </div>
         </header>
         <main>
-            <nav class="menu">
-                <div class="flexrow">
-                    <a href="#dados" class="menu__btn btn--yellow">Dados</a>
-                    <a href="#backend" class="menu__btn btn--lightblue"
-                        >Backend</a
-                    >
-                </div>
+            <div class="u-container">
+                <nav class="c-menu">
+                    <div class="u-flexrow">
+                        <a href="#dados" class="c-menu__btn btn--yellow"
+                            >Dados</a
+                        >
+                        <a href="#backend" class="c-menu__btn btn--lightblue"
+                            >Backend</a
+                        >
+                    </div>
 
-                <a href="#frontend" class="menu__btn btn--orange">Frontend</a>
-
-                <div class="flexrow">
-                    <a href="#frameworks" class="menu__btn btn--border"
-                        >Frameworks</a
+                    <a href="#frontend" class="c-menu__btn btn--orange"
+                        >Frontend</a
                     >
-                    <a href="" class="menu__btn btn--play"
-                        >teste<i class="menu__icon"></i
-                    ></a>
-                </div>
-            </nav>
-            <section class="grid" id="grid">
-                <div class="flexrow">
-                    <a href="" class="grid__link" id="facebook">
-                        <i class="grid__icon"></i>
-                    </a>
-                    <a href="" class="grid__link" id="instagram">
-                        <i class="grid__icon"></i>
-                    </a>
-                    <h2 class="grid__title">Veja nossos cursos</h2>
-                </div>
-            </section>
+
+                    <div class="u-flexrow">
+                        <a href="#frameworks" class="c-menu__btn btn--border"
+                            >Frameworks</a
+                        >
+                        <a href="" class="c-menu__btn btn--play"
+                            >teste<i class="c-menu__icon"></i
+                        ></a>
+                    </div>
+                </nav>
+                <section class="c-grid" id="grid">
+                    <div class="u-flexrow">
+                        <a href="" class="c-grid__link" id="facebook">
+                            <i class="c-grid__icon"></i>
+                        </a>
+                        <a href="" class="c-grid__link" id="instagram">
+                            <i class="c-grid__icon"></i>
+                        </a>
+                        <h2 class="c-grid__title">Veja nossos cursos</h2>
+                    </div>
+                </section>
+            </div>
         </main>
         <script src="./src/js/scroll-reveal.js"></script>
     </body>
