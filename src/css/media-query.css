@@ -1,10 +1,17 @@
 /* @see: Alinhamentos do elementos botões em column */
 
-@media (max-widht: 767px) {
+@media (max-width: 767px) {
+    .c-menu__btn {
+        margin: 0 0 30px 0;
+    }
 
+    .c-menu .u-flexrow {
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 
-@media (min-widht: 768px) {
+@media (min-width: 768px) {
     
 }

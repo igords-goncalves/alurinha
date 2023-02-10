@@ -1,0 +1,48 @@
+.c-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 570px;
+
+    margin: 42px auto;
+}
+
+.c-menu__btn {
+    color: var(--font-text);
+    text-decoration: none;
+    
+    box-sizing: content-box;
+    
+    padding: 25px 85px;
+    text-align: center;
+
+    font-size: 1.3rem;
+    font-weight: 600;   
+}
+
+.btn--play {
+    padding: 0;
+}
+
+.btn--yellow {
+    background-color: var(--bg-yellow);
+    max-width: 209.37px;
+}
+
+.btn--lightblue {
+    background-color: var(--bg-lightblue);
+    border-radius: 50px;
+    max-width: 208px;
+}
+
+.btn--orange {
+    background-color: var(--bg-orange);
+    border-radius: 50px;
+    max-width: 421px;
+}
+
+.btn--border {
+    border: var(--bg-border);
+    max-width: 270.24px;
+}
