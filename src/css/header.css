@@ -1,0 +1,28 @@
+.c-header {
+    margin: 60px 0 0 0;
+}
+
+.c-header .u-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.c-header .u-flexrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 30px 0;
+}
+
+.c-header__logo {
+    font-size: 1.3rem;
+}
+
+.c-header__title {
+    padding: 8px;
+
+    font-family: var(--font-title);
+    font-size: 5rem;
+    text-align: center;
+    overflow-wrap: break-word;
+}
