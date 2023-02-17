@@ -19,7 +19,7 @@
         <title>Alurinha</title>
     </head>
     <body>
-        <header class="c-header">
+        <header class="l-header">
             <div class="u-container">
                 <div class="u-flexrow">
                     <h1 class="c-header__logo">Alurinha</h1>
@@ -30,7 +30,8 @@
                 <h2 class="c-header__title">Mergulhe em Tecnologia</h2>
             </div>
         </header>
-        <main>
+
+        <main class="l-main">
             <div class="u-container">
                 <nav class="c-menu">
                     <div class="u-flexrow">
@@ -57,14 +58,44 @@
                         ></a>
                     </div>
                 </nav>
-                <section class="c-grid" id="grid">
+
+                <section class="l-modal">
+                    <div class="c-modal__close">
+                        <span class="c-modal__icon"></span>
+                    </div>
+                    <div class="c-modal__video">
+                        <video src=""></video>
+                    </div>
+                </section>
+
+                <section class="l-about">
+                    <p class="c-about__text">
+                        Formações são sequências de cursos e conteúdos para você
+                        mergulhar em tecnologia e se preparar para os próximos
+                        desafios da sua carreira. Aprenda de maneira imersiva e
+                        dê os próximos passos rumo ao seu objetivo. Elaborado
+                        por especialistas para que você conheça o tema de uma
+                        maneira completa. Nossos cursos e conteúdos preparam
+                        você para desafios reais do mercado.
+                    </p>
+                </section>
+
+                <section class="l-grid" id="grid">
                     <div class="u-flexrow">
-                        <a href="" class="c-grid__link" id="facebook">
-                            <i class="c-grid__icon"></i>
-                        </a>
-                        <a href="" class="c-grid__link" id="instagram">
-                            <i class="c-grid__icon"></i>
-                        </a>
+                        <div class="u-icons">
+                            <a href="" class="c-grid__link" id="facebook">
+                                <img
+                                    src="./src/assets/img/instagram.svg"
+                                    class="c-grid__icon"
+                                />
+                            </a>
+                            <a href="" class="c-grid__link" id="instagram">
+                                <img
+                                    src="./src/assets/img/facebook.svg"
+                                    class="c-grid__icon"
+                                />
+                            </a>
+                        </div>
                         <h2 class="c-grid__title">Veja nossos cursos</h2>
                     </div>
                 </section>
