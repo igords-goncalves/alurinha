@@ -1,0 +1,14 @@
+.l-about {
+    margin: 10px 0 90px 0;
+}
+
+.c-about__text {
+    color: var(--font-text);
+
+    width: 100%;
+
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.68rem;
+
+}
