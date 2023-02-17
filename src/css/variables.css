@@ -13,5 +13,11 @@
     --bg-lightblue: #00EEFF;
     --bg-border: solid 8px #222;
 
+    --bg-hover-yellow: #e7dd9a;
+    --bg-hover-orange: #f1a361;
+    --bg-hover-lightblue: #7db5b9;
+    --bg-hover-dark: #473615;
+
+
     --color-text: #222
 }
