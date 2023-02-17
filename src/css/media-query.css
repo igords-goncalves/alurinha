@@ -1,17 +1,48 @@
 /* @see: Alinhamentos do elementos botões em column */
 
-@media (max-width: 767px) {
-    .c-menu__btn {
-        margin: 0 0 30px 0;
+@media (min-width: 768px) {  
+    .c-header__title {
+        text-align: start;
+    }
+
+    .c-menu {
+        max-width: 570px;
     }
 
     .c-menu .u-flexrow {
-        flex-direction: column;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
-}
 
+    .c-menu__btn {
+        margin: 0 0 0 0;   
+    }
+    
+    .btn--orange {
+        width: 421px;
+    }
 
-@media (min-width: 768px) {
+    .btn--border {
+        max-width: 270.24px;
+    }
+
+    .btn--play {
+        padding: 0;
+        text-align: end;
+    }
+
+    .c-about__text {
+        text-align: left;
+    }
+
+    .l-grid .u-flexrow {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .l-grid .u-flexrow:nth-child(1) {
+        flex-grow: 3;
+    }
     
 }
