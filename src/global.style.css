@@ -1,21 +1,23 @@
 @charset "UTF-8";
-
 @import "./css/reset.css";
 @import "./css/variables.css";
-
 @import "./css/header.css";
 @import "./css/menu.css";
 @import "./css/grid.css";
+@import "./css/about.css";
+@import "./css/modal.css";
 @import "./css/carrousell.css";
-
 @import "./css/media-query.css";
 
 html {
-    background-color: var(--bg-main);
+    scroll-behavior: smooth;
 }
 
 body {
+    background-color: var(--bg-main);
     color: var(--color-text);
+
+    height: 100vh;
 
     font-family: var(--font-text);
     font-size: inherit;
@@ -23,8 +25,8 @@ body {
 
 .u-container {
     width: 80%;
-
     max-width: 1024px;
+
     margin: auto;
 }
 
