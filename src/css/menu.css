@@ -3,27 +3,29 @@
     flex-direction: column;
     align-items: center;
 
-    max-width: 570px;
-
     margin: 42px auto;
 }
 
 .c-menu__btn {
     color: var(--font-text);
     text-decoration: none;
-    
-    box-sizing: content-box;
-    
-    padding: 25px 85px;
     text-align: center;
+
+    width: 100%;
+    
+    padding: 25px 0;
+    margin: 0 0 30px 0;
 
     font-size: 1.3rem;
     font-weight: 600;   
 }
 
-.btn--play {
-    padding: 0;
+.c-menu .u-flexrow {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .btn--yellow {
     background-color: var(--bg-yellow);
@@ -33,16 +35,39 @@
 .btn--lightblue {
     background-color: var(--bg-lightblue);
     border-radius: 50px;
+    
     max-width: 208px;
 }
 
 .btn--orange {
     background-color: var(--bg-orange);
     border-radius: 50px;
-    max-width: 421px;
 }
 
 .btn--border {
     border: var(--bg-border);
-    max-width: 270.24px;
+}
+.btn--play {
+    text-align: center;
+}
+
+.btn--yellow:hover {
+    background-color: var(--bg-hover-yellow);
+}
+
+.btn--lightblue:hover {
+    background-color: var(--bg-hover-lightblue);
+}
+
+.btn--orange:hover {
+    background-color: var(--bg-hover-orange);
+}
+
+.btn--play:hover {
+    color: var(--bg-hover-dark);
+}
+
+.btn--border:hover {
+    border: 8px solid var(--bg-hover-dark);
+    color: var(--bg-hover-dark);
 }
