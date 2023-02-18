@@ -44,5 +44,15 @@
     .l-grid .u-flexrow:nth-child(1) {
         flex-grow: 3;
     }
+
+    .c-modal__video {
+        margin: 4% 0;
+        width: 100%;
+    }
+
+    .c-modal__video iframe {
+        width: 660px;
+        height: 415px
+    }
     
 }
