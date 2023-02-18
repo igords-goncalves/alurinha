@@ -36,3 +36,7 @@ body {
     
     width: 100%;
 }
+
+a[class$="u--btn"] {
+    outline: none;
+}
