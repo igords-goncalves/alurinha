@@ -55,29 +55,25 @@
                     >
 
                     <div class="u-flexrow">
-                        <a href="#frameworks" class="c-menu__btn btn-- u--btn"
+                        <a href="#frameworks" class="c-menu__btn btn--border u--btn"
                             >Frameworks</a
                         >
                         <a href="" class="c-menu__btn btn--play u--btn"
                             ><i
-                                class="c-menu__icon fa-regular fa-circle-play fa-4x"
+                                class="c-menu__icon fa-regular fa-circle-play fa-4x" id="u-open-modal"
                             ></i
                         ></a>
                     </div>
                 </nav>
 
-                <section class="l-modal">
+                <section class="l-modal" id="modal">
                     <div class="c-modal__close">
-                        <span class="c-modal__icon">&times;</span>
+                        <span class="c-modal__icon" id="u-close-modal">&times;</span>
                     </div>
                     <div class="c-modal__video">
-                        <iframe
-                            src="https://www.youtube.com/embed/94yuIVdoevc"
-                            title="Alura Institutional"
-                            frameborder="0"
-                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen
-                        ></iframe>
+                        <video id="video" controls>
+                            <source src="./src/assets/video/alura-institucional.mp4" type="video/mp4">
+                        </video>
                     </div>
                 </section>
 
@@ -114,6 +110,7 @@
                 </section>
             </div>
         </main>
-        <script src="./src/js/scroll-reveal.js"></script>
+        <script type="module" src="./src/js/scroll-reveal.js"></script>
+        <script src="./src/js/modal.js"></script>
     </body>
 </html>
