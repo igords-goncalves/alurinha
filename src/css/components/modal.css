@@ -1,5 +1,5 @@
 .l-modal {
-    display: block;
+    display: none;
     position: fixed;
     text-align: center;
     z-index: 99;
@@ -20,7 +20,11 @@
     font-family: var(--font-title);
 }
 
-.c-modal__video {
+.c-modal__video video {
     margin: 50% 0;
     width: 100%;
+}
+
+[active] {
+    display: block;
 }
