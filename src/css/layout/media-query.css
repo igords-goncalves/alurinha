@@ -45,14 +45,11 @@
         flex-grow: 3;
     }
 
-    .c-modal__video {
+    .c-modal__video video {
         margin: 4% 0;
         width: 100%;
-    }
 
-    .c-modal__video iframe {
         width: 660px;
         height: 415px
     }
-    
 }
